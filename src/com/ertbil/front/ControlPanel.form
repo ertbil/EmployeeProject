@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.ertbil.front.ControlPanel">
+  <grid id="27dc6" binding="panel1" layout-manager="GridLayoutManager" row-count="6" column-count="9" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="602" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-16764095"/>
+      <foreground color="-1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <scrollpane id="f8c06">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="7" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16764095"/>
+          <foreground color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="1c9d6" class="javax.swing.JTable" binding="table1" default-binding="true">
+            <constraints/>
+            <properties>
+              <autoCreateRowSorter value="false"/>
+              <background color="-10067354"/>
+              <foreground color="-1"/>
+              <selectionBackground color="-4518900"/>
+              <selectionForeground color="-1"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <vspacer id="f9bc4">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="7" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="4a770">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="7" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <hspacer id="a5bbc">
+        <constraints>
+          <grid row="3" column="8" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="c765c">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="41370" class="javax.swing.JButton" binding="ekle">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-10067354"/>
+          <foreground color="-1"/>
+          <text value="Ekle"/>
+        </properties>
+      </component>
+      <component id="92934" class="javax.swing.JButton" binding="sil">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-10067354"/>
+          <foreground color="-1"/>
+          <text value="Sil"/>
+        </properties>
+      </component>
+      <component id="4787" class="javax.swing.JButton" binding="guncelleButton">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-10067354"/>
+          <foreground color="-1"/>
+          <text value="Güncelle"/>
+        </properties>
+      </component>
+      <component id="631c0" class="javax.swing.JButton" binding="geri">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-10067354"/>
+          <foreground color="-1"/>
+          <text value="Menüye Dön"/>
+        </properties>
+      </component>
+      <component id="8e873" class="javax.swing.JButton" binding="exit">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-10067354"/>
+          <foreground color="-1"/>
+          <text value="Çıkış"/>
+        </properties>
+      </component>
+      <component id="b1242" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font style="2"/>
+          <foreground color="-1"/>
+          <text value="Ara:"/>
+        </properties>
+      </component>
+      <component id="56182" class="javax.swing.JTextField" binding="textField">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-10067354"/>
+          <foreground color="-1"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
